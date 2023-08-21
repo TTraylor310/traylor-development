@@ -3,10 +3,11 @@ import LinkedIn from './Components/Icons/LinkedIn'
 import Github from './Components/Icons/Github'
 import GmailIcon from './Components/Icons/Gmail'
 import TrayDevLogo from './Components/TrayDevLogo'
+// import EmailLink from './Components/EmailLink'
 
 const HomePage = () => {
   return (
-    <div className='bg-greyBack min-h-screen text-offWhite'>
+    <div className='min-h-screen bg-greyBack text-offWhite'>
 
       <h3 className='text-center text-[3.5rem] pt-[6.25rem]'>Coming Soon.</h3>
 
@@ -19,9 +20,15 @@ const HomePage = () => {
         <Link href='http://github.com/ttraylor310'>
           <Github />
         </Link>
-        <Link href='/'>
+
+        {/* <EmailLink /> */}
+        {/* <Link href='/'>
           <GmailIcon />
-        </Link>
+        </Link> */}
+      </div>
+      <div className='flex justify-center space-x-10 pt-[2rem] text-2xl'>
+        <h4>Contact :</h4>
+        <h4>tim@traylordevelopment.com</h4>
       </div>
 
 

@@ -21,15 +21,15 @@ const TrayDevLogo = () => {
         src={LaptopT}
         className='mx-auto mt-[4.5rem] static'
       />
-      <div className='absolute left-[35%] top-[35%]'>
+      <div>
         <div className={rockSalt.className}>
           <h1 className='tracking-[0.6rem]'>
-            <span className=''>Traylor</span>
+            <span className='absolute left-[35%] top-[35%]'>Traylor</span>
           </h1>
         </div>
 
         <div className={sarpanch.className}>
-          <h1>Development</h1>
+          <h1 className='absolute left-[41%] top-[39%]'>Development</h1>
         </div>
       </div>
     </div>
