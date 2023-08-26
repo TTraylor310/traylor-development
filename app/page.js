@@ -3,7 +3,6 @@ import LinkedIn from './Components/Icons/LinkedIn'
 import Github from './Components/Icons/Github'
 import GmailIcon from './Components/Icons/Gmail'
 import TrayDevLogo from './Components/TrayDevLogo'
-// import EmailLink from './Components/EmailLink'
 
 const HomePage = () => {
   return (
@@ -21,10 +20,6 @@ const HomePage = () => {
           <Github />
         </Link>
 
-        {/* <EmailLink /> */}
-        {/* <Link href='/'>
-          <GmailIcon />
-        </Link> */}
       </div>
       <div className='flex justify-center space-x-10 pt-[2rem] text-2xl'>
         <h4>Contact :</h4>
