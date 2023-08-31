@@ -1,18 +1,18 @@
 import Image from 'next/image'
-import { Rock_Salt, Sarpanch } from 'next/font/google'
 import LaptopT from 'public/BackIcon.svg'
+// import { Rock_Salt, Sarpanch } from 'next/font/google'
 
 
-const rockSalt = Rock_Salt({
-  weight: ['400'],
-  style: ['normal'],
-  subsets: ['latin'],
-})
+// const rockSalt = Rock_Salt({
+//   weight: ['400'],
+//   style: ['normal'],
+//   subsets: ['latin'],
+// })
 
-const sarpanch = Sarpanch({
-  weight: ['400'],
-  subsets: ['latin'],
-})
+// const sarpanch = Sarpanch({
+//   weight: ['400'],
+//   subsets: ['latin'],
+// })
 
 const TrayDevLogo = () => {
   return (
