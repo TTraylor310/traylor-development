@@ -17,6 +17,5 @@
     "tailwindcss": "3.3.3"
   },
   "devDependencies": {
-    "tailwindcss-textshadow": "^2.1.3"
   }
 }
