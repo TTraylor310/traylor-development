@@ -8,12 +8,13 @@ module.exports = {
   theme: {
     extend: {
       // fontFamily: {
-      //   rockSalt: ['Rock Salt', ]
+        
       // },
       colors: {
         greyBack: '#2F2F2F',
         offWhite: '#E2E4E9',
         darkBlue: '#070A14',
+        tanLightness: '#FFF5D5',
       },
     },
   },

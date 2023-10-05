@@ -1,11 +1,12 @@
-import HeaderPage from '@/Components/Header'
+import Hero from '@components/Hero'
+import ServicesSection from '@components/Services'
 
 const HomePage = () => {
   return (
-    <div className='min-h-screen bg-darkBlue text-white'>
+    <div className=''>
 
-      <HeaderPage />
-
+      <Hero />
+      <ServicesSection />
 
     </div>
   )
