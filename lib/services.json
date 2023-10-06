@@ -1,0 +1,53 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Full-Stack",
+      "altName": "Full Stack Icon",
+      "icon": "/icons/services/fullStackIcon.svg",
+      "width": "87",
+      "height": "68",
+      "description": "As a full-stack JavaScript developer, I possess a versatile skill set encompassing both front-end and back-end technologies. My ability to design databases, implement RESTful APIs, and ensure smooth user experiences allows me to independently develop and create interactive web pages for a premium user experience."
+    },{
+      "id": "2",
+      "name": "S.E.O.",
+      "altName": "S.E.O. Icon",
+      "icon": "/icons/services/seoIcon.svg",
+      "width": "92",
+      "height": "62",
+      "description": "Meticulously structuring websites with clean HTML, semantic tags, and well-organized content, I ensure search engines can easily index the site. Through optimized meta tags, relevant keywords, and best practices, I boost visibility in search results, providing users a seamless and discoverable experience."
+    },{
+      "id": "3",
+      "name": "Tools & Process",
+      "altName": "Tools & Process icon",
+      "icon": "/icons/services/toolsIcon.svg",
+      "width": "83",
+      "height": "69",
+      "description": "By seamlessly integrating user research, wireframing, and prototyping, I craft intuitive and delightful user experiences. My proficiency in design tools and knack for creative problem-solving converge to shape products that not only captivate aesthetically but also functionally resonate with their intended audience."
+    },{
+      "id": "4",
+      "name": "Database",
+      "altName": "Database Icon",
+      "icon": "/icons/services/databaseIcon.svg",
+      "width": "84",
+      "height": "80",
+      "description": "Working with databases, such as MySQL, MongoDB, and Firebase, I verify smooth data storage, retrieval, and manipulation. By architecting efficient database structures and implementing secure API endpoints, I create dynamic websites that can handle user interactions, content management, and data-driven functionality."
+    },{
+      "id": "5",
+      "name": "User Focused",
+      "altName": "User Focused Icon",
+      "icon": "/icons/services/userIcon.svg",
+      "width": "82",
+      "height": "69",
+      "description": "Prioritize understanding the needs, motivations, and behaviors of users, I can build tailored interfaces that genuinely resonate with them. Through techniques like user research, personas, and journey mapping, I ensure that every design decision I make is rooted in enhancing user satisfaction and delivering intuitive, meaningful experiences."
+    },{
+      "id": "6",
+      "name": "Visual Design",
+      "altName": "Visual Design Icon",
+      "icon": "/icons/services/visualIcon.svg",
+      "width": "100",
+      "height": "58",
+      "description": "Visual aesthetics play a pivotal role in conveying the right message. I meticulously fuse color psychology, typography, and layout principles to craft interfaces that are visually appealing. Prioritizing visual hierarchy, contrast, and consistency, I ensure users engage with an intuitive design that enhances their experience and fosters a lasting connection with the product."
+    }
+  ]
+}

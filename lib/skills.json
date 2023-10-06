@@ -1,0 +1,222 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML 5",
+      "icon": "/icons/skills/HTMLIcon.svg",
+      "altName": "HTML 5 Icon",
+      "width": "87",
+      "height": "97"
+    },{
+      "id": 2,
+      "name": "CSS 3",
+      "icon": "/icons/skills/CSS3Icon.svg",
+      "altName": "CSS 3 Icon",
+      "width": "87",
+      "height": "97"
+    },{
+      "id": 3,
+      "name": "JavaScript",
+      "icon": "/icons/skills/JavaScriptIcon.svg",
+      "altName": "JavaScript Icon",
+      "width": "97",
+      "height": "97"
+    },{
+      "id": 4,
+      "name": "Node JS",
+      "icon": "/icons/skills/NodejsIcon.svg",
+      "altName": "NodeJS Icon",
+      "width": "84",
+      "height": "95"
+    },{
+      "id": 5,
+      "name": "Express JS",
+      "icon": "/icons/skills/ExpressjsIcon.svg",
+      "altName": "ExpressJS Icon",
+      "width": "101",
+      "height": "100"
+    },{
+      "id": 6,
+      "name": "React JS",
+      "icon": "/icons/skills/ReactIcon.svg",
+      "altName": "ReactJS Icon",
+      "width": "116",
+      "height": "100"
+    },{
+      "id": 7,
+      "name": "Next JS",
+      "icon": "/icons/skills/NextjsIcon.svg",
+      "altName": "NextJS Icon",
+      "width": "101",
+      "height": "100"
+    },{
+      "id": 8,
+      "name": "Redux Toolkit",
+      "icon": "/icons/skills/ReduxIcon.svg",
+      "altName": "Redux Toolkit Icon",
+      "width": "107",
+      "height": "100"
+    },{
+      "id": 9,
+      "name": "Tailwind CSS",
+      "icon": "/icons/skills/TailwindCSSIcon.svg",
+      "altName": "Tailwind CSS Icon",
+      "width": "104",
+      "height": "62"
+    },{
+      "id": 10,
+      "name": "Bootstrap",
+      "icon": "/icons/skills/BootstrapIcon.svg",
+      "altName": "Bootstrap Icon",
+      "width": "100",
+      "height": "79"
+    },{
+      "id": 11,
+      "name": "SaSS",
+      "icon": "/icons/skills/SassIcon.svg",
+      "altName": "SaSS Icon",
+      "width": "103",
+      "height": "70"
+    },{
+      "id": 12,
+      "name": "Material UI",
+      "icon": "/icons/skills/MaterialUIIcon.svg",
+      "altName": "Material UI Icon",
+      "width": "103",
+      "height": "83"
+    },{
+      "id": 13,
+      "name": "Supabase",
+      "icon": "/icons/skills/SupabaseIcon.svg",
+      "altName": "Supabase Icon",
+      "width": "92",
+      "height": "94"
+    },{
+      "id": 14,
+      "name": "Firebase",
+      "icon": "/icons/skills/FirebaseIcon.svg",
+      "altName": "Firebase Icon",
+      "width": "72",
+      "height": "98"
+    },{
+      "id": 15,
+      "name": "Mongo DB",
+      "icon": "/icons/skills/MongoDBIcon.svg",
+      "altName": "Mongo DB Icon",
+      "width": "46",
+      "height": "100"
+    },{
+      "id": 16,
+      "name": "PostgreSQL",
+      "icon": "/icons/skills/PostgreSQLIcon.svg",
+      "altName": "PostgreSQL Icon",
+      "width": "98",
+      "height": "100"
+    },{
+      "id": 17,
+      "name": "SQ Lite",
+      "icon": "/icons/skills/SQLiteIcon.svg",
+      "altName": "SQ Lite Icon",
+      "width": "89",
+      "height": "98"
+    },{
+      "id": 18,
+      "name": "Jest",
+      "icon": "/icons/skills/JestIcon.svg",
+      "altName": "Jest Icon",
+      "width": "97",
+      "height": "96"
+    },{
+      "id": 19,
+      "name": "Cypress",
+      "icon": "/icons/skills/CypressIcon.svg",
+      "altName": "Cypress Icon",
+      "width": "97",
+      "height": "96"
+    },{
+      "id": 20,
+      "name": "Netlify",
+      "icon": "/icons/skills/NetlifyIcon.svg",
+      "altName": "Netlify Icon",
+      "width": "100",
+      "height": "100"
+    },{
+      "id": 21,
+      "name": "Heroku",
+      "icon": "/icons/skills/HerokuIcon.svg",
+      "altName": "Heroku Icon",
+      "width": "88",
+      "height": "98"
+    },{
+      "id": 22,
+      "name": "Vercel",
+      "icon": "/icons/skills/VercelIcon.svg",
+      "altName": "Vercel Icon",
+      "width": "100",
+      "height": "86"
+    },{
+      "id": 23,
+      "name": "Render",
+      "icon": "/icons/skills/RenderIcon.svg",
+      "altName": "Render Icon",
+      "width": "95",
+      "height": "95"
+    },{
+      "id": 24,
+      "name": "AWS Cloud",
+      "icon": "/icons/skills/AWSIcon.svg",
+      "altName": "AWS Icon",
+      "width": "100",
+      "height": "60"
+    },{
+      "id": 25,
+      "name": "Google Cloud",
+      "icon": "/icons/skills/GoogleCloudIcon.svg",
+      "altName": "Google Cloud Icon",
+      "width": "100",
+      "height": "80"
+    },{
+      "id": 26,
+      "name": "Git",
+      "icon": "/icons/skills/GitIcon.svg",
+      "altName": "Git Icon",
+      "width": "98",
+      "height": "98"
+    },{
+      "id": 27,
+      "name": "Bash Terminal",
+      "icon": "/icons/skills/BashIcon.svg",
+      "altName": "Bash Icon",
+      "width": "87",
+      "height": "99"
+    },{
+      "id": 28,
+      "name": "Figma",
+      "icon": "/icons/skills/FigmaIcon.svg",
+      "altName": "Figma Icon",
+      "width": "66",
+      "height": "94"
+    },{
+      "id": 29,
+      "name": "Miro",
+      "icon": "/icons/skills/MiroIcon.svg",
+      "altName": "Miro Icon",
+      "width": "93",
+      "height": "93"
+    },{
+      "id": 30,
+      "name": "Adobe XD",
+      "icon": "/icons/skills/AdobeXDIcon.svg",
+      "altName": "Adobe XD Icon",
+      "width": "95",
+      "height": "93"
+    },{
+      "id": 31,
+      "name": "Adobe Photoshop",
+      "icon": "/icons/skills/PhotoshopIcon.svg",
+      "altName": "Adobe Photoshop Icon",
+      "width": "95",
+      "height": "93"
+    }
+  ]
+}

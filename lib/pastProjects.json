@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Library of Things",
+      "altName": "Picture of Library of Things",
+      "description": "A library of things is a collection of items that are loaned out like books. The items are typically things that are not commonly used, such as tools, kitchen appliances, camping equipment and party supplies. The library of things is a great way to reduce waste and save money.",
+      "technologies": [
+        "Next JS", "Supabase", "Material UI", "Cypress"
+      ],
+      "repo": "https://github.com/TTraylor310/library-of-things",
+      "live": "https://library-of-things.vercel.app/",
+      "image": "/images/pastProjects/LOTback.png"
+    },{
+      "id": 2,
+      "name": "Github Finder",
+      "altName": "Picture of Github Finder",
+      "description": "A simple app to search Github users and view their profile. This app uses the Github API to fetch user data.",
+      "technologies": [
+        "React", "Github API", "Daisy UI", "Tailwind CSS "
+      ],
+      "repo": "https://github.com/TTraylor310/gitHubFinder",
+      "live": "https://tray-hubfinder.netlify.app/",
+      "image": "/images/pastProjects/GITback.png"
+    },{
+      "id": 3,
+      "name": "Ticket Tracker",
+      "altName": "Picture of Ticket Tracker",
+      "description": "React application using redux with Express and MongoDB. App for submitting tickets for devices. Allows users to respond to notes for each ticket.",
+      "technologies": [
+        "Redux Toolkit", "React-Modal", "React-Icons", "React-Toastify"
+      ],
+      "repo": "https://github.com/TTraylor310/tracker-tray",
+      "live": "https://ticket-tracker-c06x.onrender.com/",
+      "image": "/images/pastProjects/TICKETback.png"
+    },{
+      "id": 4,
+      "name": "School House Talk",
+      "altName": "Picture of School House Talk",
+      "description": "Acts as a single source of truth for communication and information about school activities and events between faculty and parents.",
+      "technologies": [
+        "Express JS", "Socket.io", "Inquirer", "PostgreSQL"
+      ],
+      "repo": "https://github.com/TTraylor310/School-House-Talk",
+      "live": "N/A",
+      "image": "/images/pastProjects/SCHOOLback.png"
+    }
+  ]
+}
