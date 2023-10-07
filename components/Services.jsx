@@ -1,4 +1,4 @@
-import { donegalOne, tahomaChar } from '@styles/fonts'
+import { donegalOne, inter } from '@styles/fonts'
 import servicesData from '@lib/services.json'
 import Image from 'next/image'
 
@@ -30,7 +30,7 @@ const ServicesSection = () => {
                 />
               </div>
 
-              <div className={tahomaChar.className}>
+              <div className={inter.className}>
                 <p className='text-[16px] p-[8px]'>{data.description}</p>
               </div>
 

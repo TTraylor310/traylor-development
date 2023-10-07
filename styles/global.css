@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-3xl border-white border-2 bg-white text-black text-[30px] text-center w-[140px] hover:bg-gray-900 hover:text-white;
+  }
+}
