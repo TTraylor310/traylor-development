@@ -132,7 +132,7 @@ const FormContent = () => {
               name='message'
               value={values.message}
               onChange={handleChange}
-              className='text-black w-[535px] h-[205px] pl-[2%] rounded-md'
+              className='text-black w-[535px] h-[205px] pl-[2%] rounded-md pt-[2%]'
             />
           </div>
         </div>
@@ -141,7 +141,7 @@ const FormContent = () => {
         <div className='pt-[40px] pl-[70px]'>
           <button
             type='submit'
-            className='w-[400px] h-[48px] bg-white text-black border  rounded-full'
+            className='w-[400px] h-[48px] bg-white text-black border rounded-full hover:bg-gray-900 hover:text-white'
           >
             Submit
           </button>

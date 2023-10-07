@@ -4,7 +4,7 @@ import { donegalOne } from '@styles/fonts'
 
 const Header = () => {
   return (
-    <div className='flex justify-between'>
+    <div id='home' className='flex justify-between'>
 
       <div>
         <Image
@@ -18,7 +18,7 @@ const Header = () => {
 
       <div className={donegalOne.className}>
         <ul className='flex pt-[44px] pr-[56px] gap-[40px] text-[36px] leading-[45px]'>
-          <li>Services</li>
+          <li className='headerNames'>Services</li>
           <li>Skills</li>
           <li>Past-Projects</li>
           <li>Background</li>
