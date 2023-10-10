@@ -5,7 +5,7 @@ import projectData from '@lib/pastProjects.json'
 const PastProjectsSection = () => {
   const projectDataInfo = projectData.projects
   return (
-    <div className='flex'>
+    <div className='flex pt-[100px]' id='pastProjects'>
 
       <div className='w-[920px] pl-[56px] pt-[80px] pb-[124px] flex flex-wrap gap-[16px]'>
         {projectDataInfo.map((data) => (
@@ -41,7 +41,7 @@ const PastProjectsSection = () => {
       </div>
 
       <div className={donegalOne.className}>
-        <h2 className='text-[48px] pr-[80px] pt-[198px] pl-[100px]'>Past-Projects</h2>
+        <h2 className='text-[48px] pr-[80px] pt-[180px] pl-[100px]'>Past-Projects</h2>
       </div>
 
     </div>

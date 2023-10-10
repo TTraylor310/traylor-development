@@ -8,6 +8,6 @@
   }
 
   .headerNames {
-    @apply hover:text-black bg-orange-800
+    @apply hover:underline-offset-[10px] hover:decoration-white hover:decoration-[3px] hover:underline
   }
 }

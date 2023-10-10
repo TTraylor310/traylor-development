@@ -3,11 +3,11 @@ import FormContent from '@components/FormContent'
 
 const ContactSection = () => {
   return (
-    <div id='contactSection' className='min-h-[800px] flex'>
+    <div id='contact' className='flex ml-[4%]'>
 
-      <div id='left' className='min-w-[40vw]'>
+      <div id='left' className=''>
         <div className={donegalOne.className}>
-          <h2 className='text-[48px] pl-[86px] pt-[58px]'>
+          <h2 className='text-[48px] pl-[46px] pt-[58px]'>
             Let's Work Together
           </h2>
           <div className={inter.className}>
@@ -21,7 +21,7 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <div id='right' className='min-w-[60vw]'>
+      <div id='right' className='min-w-[55vw]'>
         <FormContent />
       </div>
     </div>

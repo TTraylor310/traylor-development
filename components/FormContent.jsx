@@ -4,12 +4,13 @@ import emailjs from '@emailjs/browser'
 import { donegalOne, eczar, roboto } from '@styles/fonts'
 
 const initValues = { name: '', email: '', subject: '', message: '' }
-const initState = { isLoading: false, error: '', values: initValues }
+const initState = { isLoading: false, error: '', values: initValues, selectedButton: null }
 const serviceID = process.env.SERVICE_ID
 const templateID = process.env.EMAILJS_TEMPLATE_ID
 const emailKey = process.env.EMAILJS_KEY
 
 const FormContent = () => {
+  
   const [state, setState] = useState(initState)
   const { values, isLoading, error } = state
 
@@ -63,12 +64,20 @@ const FormContent = () => {
       .catch((error) => console.error(error))
   }
 
+  const handleClick = (numB) => {
+    setState((prev) => ({
+      ...prev,
+      selectedButton: numB,
+    }))
+  }
+
+
   return (
-    <div className='min-h-[1500px]'>
+    <div className='pb-[80px]'>
     <div className={roboto.className}>
       <form onSubmit={sendEmail} ref={form} className='px-[14%]'>
-        <div id='formName' className='pt-[130px]'>
-          <label htmlFor='name' className='pr-[72px] text-[18px]'>
+        <div id='formName' className='pt-[100px]'>
+          <label htmlFor='name' className='pr-[65px] text-[20px]'>
             Name
           </label>
           <input
@@ -77,12 +86,11 @@ const FormContent = () => {
             name='name'
             value={values.name}
             onChange={handleChange}
-            className='text-black w-[420px] h-[40px] pl-[2%]'
+            className='text-black w-[420px] h-[40px] pl-[2%] rounded-md'
           />
         </div>
-
         <div id='formEmail' className='pt-[50px]'>
-          <label htmlFor='email' className='pr-[72px] text-[18px]'>
+          <label htmlFor='email' className='pr-[65px] text-[20px]'>
             Email
           </label>
           <input
@@ -91,10 +99,9 @@ const FormContent = () => {
             name='email'
             value={values.email}
             onChange={handleChange}
-            className='text-black w-[420px] h-[40px] pl-[2%]'
+            className='text-black w-[420px] h-[40px] pl-[2%] rounded-md'
           />
         </div>
-
         <div id='formSubject' className=''>
           <div className='pl-[35px] pt-[60px]'>
             <div className={roboto.className}>
@@ -105,22 +112,19 @@ const FormContent = () => {
           </div>
 
           <div className={eczar.className}>
-          <div id='buttonService' className='flex justify-between mr-[20%] pt-[40px] font-[30px] pl-[20px]'>
+          <div id='buttonService' className='flex justify-center pt-[40px] font-[30px] space-x-16'>
             <div>
-              <button className='btn'>Website</button>
+              <button onClick={() => handleClick(1)} className='btn'>Website</button>
             </div>
             <div>
-              <button className='btn'>Design</button>
+              <button onClick={() => handleClick(2)} className='btn'>Design</button>
             </div>
             <div>
-              <button className='btn'>Custom</button>
+              <button onClick={() => handleClick(3)} className='btn'>Custom</button>
             </div>
           </div>
           </div>
         </div>
-
-
-
         <div id='formMessage' className='pt-[60px]'>
           <label htmlFor='message' className='text-[18px]'>
             Tell me more about your project
@@ -136,8 +140,6 @@ const FormContent = () => {
             />
           </div>
         </div>
-
-
         <div className='pt-[40px] pl-[70px]'>
           <button
             type='submit'

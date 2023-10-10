@@ -7,7 +7,7 @@ const ServicesSection = () => {
   const servicesDataInfo = servicesData.services
 
   return (
-    <div>
+    <div id='services'>
       <div className={donegalOne.className}>
         <h2 className='text-[48px] pt-[70px] pl-[115px]'>Services</h2>
       </div>

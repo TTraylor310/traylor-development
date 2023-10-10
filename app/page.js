@@ -13,7 +13,7 @@ const HomePage = () => {
       <ServicesSection />
       <SkillsSection />
       <PastProjectsSection />
-      {/* <ContactSection /> */}
+      <ContactSection />
 
       <FooterSection />
 

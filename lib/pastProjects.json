@@ -34,7 +34,7 @@
       "live": "https://ticket-tracker-c06x.onrender.com/",
       "image": "/images/pastProjects/TICKETback.png"
     },{
-      "id": 4,
+      "id": 4, 
       "name": "School House Talk",
       "altName": "Picture of School House Talk",
       "description": "Acts as a single source of truth for communication and information about school activities and events between faculty and parents.",
