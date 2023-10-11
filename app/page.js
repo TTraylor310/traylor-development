@@ -8,14 +8,15 @@ import FooterSection from '@components/Footer'
 const HomePage = () => {
   return (
     <div className=''>
+      
+      {/* <SkillsSection /> */}
 
-      <Hero />
-      <ServicesSection />
-      <SkillsSection />
-      <PastProjectsSection />
-      <ContactSection />
+      {/* <Hero /> */}
+      {/* <ServicesSection /> */}
+      {/* <PastProjectsSection /> */}
+      {/* <ContactSection /> */}
 
-      <FooterSection />
+      {/* <FooterSection /> */}
 
     </div>
   )

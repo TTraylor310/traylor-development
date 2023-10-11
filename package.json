@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@nextui-org/react": "^2.1.13",
     "autoprefixer": "10.4.14",
     "emailjs": "^4.0.3",
+    "framer-motion": "^10.16.4",
     "next": "13.4.13",
     "postcss": "8.4.27",
     "react": "18.2.0",

@@ -11,7 +11,7 @@ const PastProjectsSection = () => {
         {projectDataInfo.map((data) => (
           <div
             key={data.id}
-            className='w-[422px] h-[240px] relative overflow-hidden'
+            className='w-[422px] h-[240px] relative'
           >
             <Image
               alt={data.altName}
