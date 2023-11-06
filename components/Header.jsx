@@ -6,12 +6,12 @@ import { donegalOne } from '@styles/fonts'
 const Header = () => {
   return (
     <nav>
-      <div className='lg:mx-10'>
+      <div className='lg:mx-10 xl:mx-14'>
         <div
           id='home'
           className='flex justify-center pr-4 sm:flex sm:justify-between sm:items-center'
         >
-          <div className='sm:scale-[80%] sm:mx-4 shrink-0'>
+          <div className='shrink-0 sm:scale-[80%] sm:mx-4 lg:scale-100'>
             <Link href={'#home'}>
             <Image
               alt='Traylor Development Logo'
@@ -23,7 +23,7 @@ const Header = () => {
           </div>
 
           <div className={donegalOne.className}>
-            <ul className='hidden sm:show sm:flex  md:text-[36px] xl:space-x-14'>
+            <ul className='hidden sm:show sm:flex sm:text-[26px] sm:mr-2 sm:space-x-6 md:space-x-8 md:text-[34px] md:mr-4 lg:text-[38px] lg:space-x-12 xl:space-x-14'>
               <li className='headerNames'>
                 <Link href={'#services'}>Services</Link>
               </li>

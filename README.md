@@ -15,5 +15,7 @@ pastproj - hover, slide up color and more info? gets bigger? (background adjust?
 contact - need to Color button and set according to state?
 contact - fix emailjs server, +env
 
+checking UI packages out for help to complete
+
 
  -->
